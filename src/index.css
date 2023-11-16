@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer components {
+	/* containers */
+	.container-v-sm {
+		@apply px-6 py-6 md:px-10 md:py-[2.12rem];
+	}
+	.container-v-main {
+		@apply px-4 py-12 md:px-[2.81rem] md:py-16;
+	}
+	.text-v-xlg {
+		@apply text-[2.88rem] leading-10 font-bold md:text-7xl md:leading-[5.5rem];
+	}
+	.text-v-lg-bold {
+		@apply text-4xl leading-[2.8rem] font-bold md:text-6xl lg:text-7xl md:leading-[4.5rem] lg:leading-[5rem];
+	}
+	.text-v-sm {
+		@apply text-base leading-7 md:text-lg md:leading-[1.88rem];
+	}
+	.text-v-md-semi {
+		@apply text-2xl font-semibold;
+	}
+	.text-v-md {
+		@apply text-[2.75rem] leading-[3.375rem] md:text-[3.5rem] md:leading-[4.25rem];
+	}
+}
+.explore-headings {
+	@apply mt-5 mb-4 capitalize;
+}
+.active {
+	color: white;
+}
+.slick-arrow {
+	display: none !important;
+}
+.slick-list {
+	margin-right: 10px;
+}
