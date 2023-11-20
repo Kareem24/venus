@@ -13,18 +13,27 @@ function Review() {
 		speed: 500,
 		slidesToShow: 2,
 		slidesToScroll: 2,
-		centerPadding: "60px",
+		autoplay: true,
+		autoplaySpeed: 3000,
+		pauseOnHover: true,
+		cssEase: "ease-in",
+		responsive: [
+			{
+				breakpoint: 760,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					initialSlide: 1,
+				},
+			},
+		],
 	};
 	return (
 		<section className="container-v-main bg-black-v-800 ">
-			<div className="flex md:justify-between items-center flex-col md:flex-row ">
-				<h2 className="text-v-lg-bold capitalize text-white">
+			<div className="text-left ">
+				<h2 className="text-v-lg-bold capitalize text-white mb-16">
 					What people says
 				</h2>
-				<div className="self-start mt-6 mb-10 flex gap-[1.88rem]">
-					<Button text={"arw"} classname={"text-black-v-dark bg-blue-bg"} />
-					<Button text={"arw"} classname={"text-black-v-dark bg-gray-v-300"} />
-				</div>
 			</div>
 			{/* <div className="grid grid-cols-2 gap-[1.87rem] "> */}
 			<Slider {...settings}>

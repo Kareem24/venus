@@ -12,6 +12,7 @@ export default {
         "black-v-dark": "#101110",
         "black-v-800": "#282928",
         "black-v-700": "#404140",
+        "black-v-600": "#585858",
         "black-v-500": "#707070"
       }
 

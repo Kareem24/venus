@@ -25,7 +25,7 @@ body {
 		@apply text-base leading-7 md:text-lg md:leading-[1.88rem];
 	}
 	.text-v-md-semi {
-		@apply text-2xl font-semibold;
+		@apply text-xl md:text-2xl font-semibold;
 	}
 	.text-v-md {
 		@apply text-[2.75rem] leading-[3.375rem] md:text-[3.5rem] md:leading-[4.25rem];
@@ -37,9 +37,34 @@ body {
 .active {
 	color: white;
 }
+.career {
+	background: linear-gradient(
+		to bottom,
+		#fff 0%,
+		#fff 60%,
+		#101110 60%,
+		#101110 100%
+	);
+}
+.category.active {
+	@apply bg-blue-bg border-transparent;
+}
+/* slick custom design */
 .slick-arrow {
 	display: none !important;
 }
 .slick-list {
-	margin-right: 10px;
+	margin-right: 1.87rem;
+}
+.slick-dots li button:before {
+	@apply text-black-v-600  md:text-xl text-xs;
+}
+.slick-dots li.slick-active button:before {
+	@apply text-white;
+}
+.slick-dots {
+	position: relative !important;
+	margin-top: 3rem;
+	width: max-content;
+	margin: auto;
 }

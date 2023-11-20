@@ -30,4 +30,18 @@ export const reviews = [
     position: ' user interface designer',
 
   },
+  {
+    avatar: avatar2,
+    name: 'adams',
+    comment: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam perferendis commodi alias iusto ex labore eius dolorum necessitatibus officiis sint eligendi sit, quo totam vel cupiditate dicta quibusdam placeat.",
+    position: ' user interface designer',
+
+  },
+  {
+    avatar: avatar1,
+    name: 'oluwatobi',
+    comment: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam perferendis commodi alias iusto ex labore eius dolorum necessitatibus officiis sint eligendi sit, quo totam vel cupiditate dicta quibusdam placeat.",
+    position: ' user interface designer',
+
+  },
 ]
