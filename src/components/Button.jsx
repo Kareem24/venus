@@ -1,6 +1,6 @@
-import React from "react";
+import PropTypes from "prop-types";
 
-function Button({ text, classname, type, onClick, id }) {
+function Button({ text, classname, type, onClick, id, children }) {
 	return (
 		<button
 			type={type}
@@ -8,8 +8,16 @@ function Button({ text, classname, type, onClick, id }) {
 			onClick={onClick}
 			data-id={id}>
 			{text}
+			{children}
 		</button>
 	);
 }
-
+Button.propTypes = {
+	text: PropTypes.string,
+	classname: PropTypes.string,
+	type: PropTypes.oneOf(["submit", "reset", "button"]),
+	onClick: PropTypes.func,
+	id: PropTypes.number,
+	children: PropTypes.elementType,
+};
 export default Button;

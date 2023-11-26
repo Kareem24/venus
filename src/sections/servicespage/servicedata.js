@@ -1,6 +1,6 @@
-import serviceImg1 from '../../assets/images/service-img-1.png'
-import serviceImg2 from '../../assets/images/service-img-2.png'
-import serviceImg3 from '../../assets/images/service-img-3.png'
+import serviceImg1 from '../../assets/images/service-img-1.webp'
+import serviceImg2 from '../../assets/images/service-img-2.webp'
+import serviceImg3 from '../../assets/images/service-img-3.webp'
 export const servicedata = [
   {
     title: 'Branded eCommerce',

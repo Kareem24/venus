@@ -1,5 +1,4 @@
-import React from "react";
-
+import PropTypes from "prop-types";
 function ProService({ service }) {
 	const { title, icon, body } = service;
 	return (
@@ -14,5 +13,8 @@ function ProService({ service }) {
 		</div>
 	);
 }
+ProService.propTypes = {
+	service: PropTypes.object,
+};
 
 export default ProService;

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 function InfoBox({ info }) {
 	const { title, body, icon } = info;
 	return (
@@ -10,5 +11,7 @@ function InfoBox({ info }) {
 		</div>
 	);
 }
-
+InfoBox.propTypes = {
+	info: PropTypes.number,
+};
 export default InfoBox;

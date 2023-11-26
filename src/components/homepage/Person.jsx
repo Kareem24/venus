@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import facebook from "../../assets/icons/Facebook.png";
 import twitter from "../../assets/icons/Twitter.png";
 import linkedin from "../../assets/icons/linkedin.png";
@@ -19,5 +20,8 @@ function Person({ person }) {
 		</div>
 	);
 }
+Person.propTypes = {
+	person: PropTypes.object,
+};
 
 export default Person;

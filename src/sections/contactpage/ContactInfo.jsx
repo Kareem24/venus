@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 function ContactInfo({ img, title, example }) {
 	return (
 		<div className="border-[1px] border-gray-v-200 rounded-[0.88rem]  flex gap-[0.87rem] p-5 ">
@@ -9,5 +10,10 @@ function ContactInfo({ img, title, example }) {
 		</div>
 	);
 }
+ContactInfo.propTypes = {
+	img: PropTypes.string,
+	title: PropTypes.string,
+	example: PropTypes.string,
+};
 
 export default ContactInfo;

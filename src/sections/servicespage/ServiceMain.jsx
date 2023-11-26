@@ -13,6 +13,8 @@ function ServiceMain() {
 					src={serviceHeader}
 					alt="a curly design"
 					className="md:w-32 lg:w-44 w-full hidden md:block"
+					width={177}
+					height={176}
 				/>
 			</div>
 			<div className="grid md:grid-cols-2 lg:grid-cols-3 items-center justify-center my-24 gap-[1.87rem] ">

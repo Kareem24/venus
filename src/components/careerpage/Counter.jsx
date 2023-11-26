@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 function Counter({ number, text, symbol = "" }) {
 	return (
 		<div className="text-center">
@@ -9,5 +10,10 @@ function Counter({ number, text, symbol = "" }) {
 		</div>
 	);
 }
+Counter.propTypes = {
+	number: PropTypes.number,
+	text: PropTypes.string,
+	symbol: PropTypes.string,
+};
 
 export default Counter;

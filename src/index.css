@@ -49,6 +49,18 @@ body {
 .category.active {
 	@apply bg-blue-bg border-transparent;
 }
+.form-input {
+	@apply bg-black-v-dark rounded-lg text-gray-v-200 px-6 py-5 capitalize;
+}
+.input-wrapper {
+	@apply flex flex-col;
+}
+.inputs {
+	@apply border-[1px] border-gray-200 rounded-[2.5rem] px-5 py-[0.87rem] mb-5 w-full;
+}
+.label {
+	@apply font-medium leading-7 text-black-v-dark capitalize mb-[0.62rem];
+}
 /* slick custom design */
 .slick-arrow {
 	display: none !important;

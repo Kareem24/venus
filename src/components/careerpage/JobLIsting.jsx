@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Button from "../Button";
 import locationIcon from "../../assets/icons/Location.png";
 import timeIcon from "../../assets/icons/Time-circle.png";
@@ -29,5 +30,7 @@ function JobLIsting({ job }) {
 		</div>
 	);
 }
-
+JobLIsting.propTypes = {
+	job: PropTypes.object,
+};
 export default JobLIsting;

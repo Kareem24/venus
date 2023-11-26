@@ -1,5 +1,5 @@
-import missionimg1 from "../../assets/images/mission-img-1.png";
-import missionimg2 from "../../assets/images/mission-img-2.png";
+import missionimg1 from "../../assets/images/mission-img-1.webp";
+import missionimg2 from "../../assets/images/mission-img-2.webp";
 import Button from "../../components/Button";
 function Mission() {
 	return (
