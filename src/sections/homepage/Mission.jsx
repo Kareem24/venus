@@ -6,7 +6,13 @@ function Mission() {
 		<section className="container-v-main bg-black-v-dark">
 			<div className="grid md:grid-cols-2 items-center md:flex-row gap-10 ">
 				<div className="order-1 md:-order-1">
-					<img src={missionimg1} alt="" className="" />
+					<img
+						src={missionimg1}
+						alt=" a male holding a pen making a gesture of speaking to a lady, they are both sitting down"
+						className=""
+						width={610}
+						height={508}
+					/>
 				</div>
 				<article>
 					<h2 className="text-v-lg-bold text-white">
@@ -32,7 +38,13 @@ function Mission() {
 					</p>
 				</article>
 				<div className="">
-					<img src={missionimg2} alt="" className="w-full" />
+					<img
+						src={missionimg2}
+						alt="a  group of adult stand forming a circle and putting hands on top of each other in the middle of the circle"
+						className="w-full"
+						width={610}
+						height={508}
+					/>
 				</div>
 			</div>
 		</section>

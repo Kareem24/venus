@@ -18,6 +18,8 @@ function Explore() {
 						src={img}
 						alt="three male sitting round the table with laptop in front of each person"
 						className="h-full w-full"
+						width={604}
+						height={476}
 					/>
 				</div>
 				<article className="bg-gray-v-100 py-7 px-6 ">
