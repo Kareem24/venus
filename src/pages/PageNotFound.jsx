@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import image from "../assets/images/error.png";
+import image from "../assets/images/error.webp";
 
 function PageNotFound() {
 	return (
