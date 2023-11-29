@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import missionimg1 from "../../assets/images/mission-img-1.webp";
 import missionimg2 from "../../assets/images/mission-img-2.webp";
 import Button from "../../components/Button";
@@ -23,7 +24,9 @@ function Mission() {
 						strong team, and how such a team can achieve remarkable things that
 						leave a lasting impact on the world.
 					</p>
-					<Button text={"join our team"} classname={"bg-blue-bg border-none"} />
+					<Button classname={"bg-blue-bg border-none"}>
+						<Link to={"/signup"}>Join our team</Link>
+					</Button>
 				</article>
 			</div>
 			<div className="grid md:grid-cols-2 items-center mt-10 gap-10 ">

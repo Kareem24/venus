@@ -29,6 +29,7 @@ function Hero() {
 				<img
 					src={heroImg}
 					alt="consist of three images ,1- team raise and join hands together ,2- a man staring at a small in his hand,3- a man discussing with the team on a table"
+					className="w-full"
 					width={605}
 					height={710}
 				/>
