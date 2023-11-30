@@ -1,5 +1,5 @@
-import avatar1 from '../../assets/images/review-img-1.png';
-import avatar2 from '../../assets/images/review-img-2.png';
+import avatar1 from '../../assets/images/review-img-1.webp';
+import avatar2 from '../../assets/images/review-img-2.webp';
 
 export const reviews = [
   {

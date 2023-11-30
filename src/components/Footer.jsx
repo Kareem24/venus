@@ -3,7 +3,7 @@ function Footer() {
 	return (
 		<footer className="container-v-main bg-black-v-dark text-white grid lg:grid-cols-4 md:grid-cols-2 gap-10 ">
 			<div className=" ">
-				<Logo />
+				<Logo width={176} height={34} />
 				<p className="md:block hidden text-gray-v-200  text-v-sm mt-11">
 					©2023 Flowgiri. All rights reserved{" "}
 				</p>

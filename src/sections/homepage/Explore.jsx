@@ -1,10 +1,10 @@
 import Button from "../../components/Button";
-import img from "../../assets/images/explore.png";
+import img from "../../assets/images/explore.webp";
 function Explore() {
 	return (
 		<section className="container-v-main text-black-v-dark bg-white">
-			<div className="flex md:justify-center items-center flex-col md:flex-row">
-				<h2 className="text-v-lg-bold capitalize">
+			<div className="flex md:justify-center items-center flex-col md:flex-row md:mb-16 mb10">
+				<h2 className="text-v-lg-bold capitalize text-left">
 					Explore our global network of offices
 				</h2>
 				<div className="self-start mt-6 mb-10 flex gap-[1.88rem]">
@@ -12,14 +12,17 @@ function Explore() {
 					<Button text={"arw"} classname={"text-black-v-dark bg-gray-v-300"} />
 				</div>
 			</div>
-			<div className="flex flex-col md:flex-row">
+			<div className="flex flex-col md:flex-row rounded-2xl overflow-hidden">
 				<div>
 					<img
 						src={img}
 						alt="three male sitting round the table with laptop in front of each person"
+						className="h-full w-full"
+						width={604}
+						height={476}
 					/>
 				</div>
-				<article className="bg-gray-v-100 py-7 px-6 rounded-br-2xl rounded-bl-2xl">
+				<article className="bg-gray-v-100 py-7 px-6 ">
 					<div>
 						<p className="text-v-md-semi">San Francisco, CA</p>
 						<p className="text-black-v-700 text-base mt-4 mb-5 ">

@@ -49,6 +49,18 @@ body {
 .category.active {
 	@apply bg-blue-bg border-transparent;
 }
+.form-input {
+	@apply bg-black-v-dark rounded-lg text-gray-v-200 px-6 py-5 capitalize;
+}
+.input-wrapper {
+	@apply flex flex-col;
+}
+.inputs {
+	@apply border-[1px] border-gray-200 rounded-[2.5rem] px-5 py-[0.87rem] mb-5 w-full;
+}
+.label {
+	@apply font-medium leading-7 text-black-v-dark capitalize mb-[0.62rem];
+}
 /* slick custom design */
 .slick-arrow {
 	display: none !important;
@@ -56,15 +68,102 @@ body {
 .slick-list {
 	margin-right: 1.87rem;
 }
-.slick-dots li button:before {
+.slick-dots li.slick-active button::before {
 	@apply text-black-v-600  md:text-xl text-xs;
 }
-.slick-dots li.slick-active button:before {
-	@apply text-white;
+.slick-dots li button::before {
+	font-size: 1.2rem !important;
+	line-height: 1.75rem !important;
+	color: #fff !important;
 }
 .slick-dots {
 	position: relative !important;
 	margin-top: 3rem;
 	width: max-content;
 	margin: auto;
+}
+/* loader  */
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	position: relative;
+}
+
+.loader:before {
+	content: "";
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	right: -10px;
+	bottom: -10px;
+	border-radius: 50%;
+}
+
+.loader-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.loader-block {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 2px;
+	background-color: #fff;
+	box-shadow: 0 0 20px #fff;
+	animation: loader_562 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.loader-block:nth-child(1) {
+	animation-delay: 0.1s;
+}
+
+.loader-block:nth-child(2) {
+	animation-delay: 0.2s;
+}
+
+.loader-block:nth-child(3) {
+	animation-delay: 0.3s;
+}
+
+.loader-block:nth-child(4) {
+	animation-delay: 0.4s;
+}
+
+.loader-block:nth-child(5) {
+	animation-delay: 0.5s;
+}
+
+.loader-block:nth-child(6) {
+	animation-delay: 0.6s;
+}
+
+.loader-block:nth-child(7) {
+	animation-delay: 0.7s;
+}
+
+.loader-block:nth-child(8) {
+	animation-delay: 0.8s;
+}
+
+@keyframes loader_562 {
+	0% {
+		transform: scale(1);
+		box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+	}
+
+	20% {
+		transform: scale(1, 2.5);
+		box-shadow: 0 0 50px rgba(255, 255, 255, 0.7);
+	}
+
+	40% {
+		transform: scale(1);
+		box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+	}
 }
